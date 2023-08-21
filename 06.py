@@ -103,6 +103,7 @@ print(sum(range(1, 11)))
 #https://docs.python.org/3/library/stdtypes.html#list
 numbers = list(range(1, 11))
 print(numbers)
+print(1 in numbers)
 
 #This is the besr way to easily print a list 
 #as print(range(1,11)) doesn't work as expected
@@ -114,3 +115,5 @@ for i in range(len(languages)):
     print(i, languages[i])
 
 #len will return 3. Passing 3 to range gives us 0, 1, 2
+
+print(1 in range(10))
